@@ -1,13 +1,13 @@
 **Instructions on how to build and push the docker image to a container registry:**
 
 Build the Docker image:
-docker build -t flask-mongodb-app .
+                       docker build -t flask-mongodb-app .
 
 Tag the Docker image:
-docker tag flask-mongodb-app ramangupta21/flask-mongodb-app
+                     docker tag flask-mongodb-app ramangupta21/flask-mongodb-app
 
 Push the Docker Image to Docker Hub:
-docker push ramangupta21/flask-mongodb-app
+                                    docker push ramangupta21/flask-mongodb-app
 
 **README with Detailed Steps to Deploy the Flask Application and MongoDB on a Minikube Kubernetes Cluster:**
 
